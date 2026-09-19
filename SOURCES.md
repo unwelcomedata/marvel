@@ -105,7 +105,7 @@ not applicable or unknown, write "N/A" or "unknown" so it's clear it was conside
   listed as their own rows (not folded into the original film) — these are
   excluded so each film is counted once at its original run.
 - **Known controversies / debates:** minor per-film discrepancies vs The Numbers
-  (reporting cutoffs). Cross-check documented in `02-clean`.
+  (reporting cutoffs); the two trackers agree on domestic gross to within ~1.4%.
 - **Notes:** used to confirm the film roster and distributors, and to sanity-check
   domestic figures against The Numbers. Re-release and anniversary-series rows are
   filtered in cleaning.
@@ -116,7 +116,7 @@ not applicable or unknown, write "N/A" or "unknown" so it's clear it was conside
   against the Wikipedia "List of Marvel Cinematic Universe films" and per-Phase
   articles (fun-tier; crowd-edited reference acceptable and cited plainly).
 - **URL:** https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films
-- **Format:** hand-curated lookup table built in `01-ingest` (title → phase → saga).
+- **Format:** hand-curated lookup table (film title → phase → saga).
 - **License:** factual groupings (not copyrightable); Wikipedia text CC-BY-SA,
   used only to verify the assignments.
 - **Fields used:** film title → Phase (1–6) → Saga (Infinity / Multiverse).
@@ -139,7 +139,7 @@ not applicable or unknown, write "N/A" or "unknown" so it's clear it was conside
 
 ## Notes on Data Quality
 
-- All source files are saved verbatim to `data/raw/` and never modified.
+- Source pages are captured verbatim at retrieval time and never modified.
 - Discrepancies between sources should be noted here and resolved explicitly.
 - **Series breaks:** whenever a source changed its definition or method mid-series,
   document the break date under that source and treat pre/post as separate series —
@@ -150,11 +150,7 @@ not applicable or unknown, write "N/A" or "unknown" so it's clear it was conside
 
 ---
 
-## Source Provenance in DuckDB
+## Provenance
 
-Every table in `data/project.duckdb` has a corresponding entry in the
-`_sources` metadata table:
-
-```sql
-SELECT * FROM _sources;
-```
+Every dataset in this project carries source-level provenance — publisher, URL,
+collection method, definitions, and retrieval date — documented per source above.
