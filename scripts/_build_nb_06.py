@@ -155,6 +155,7 @@ cells.append(new_code_cell(
     "img = stacked_100pct_bars(df=split, group_col='phase', segments=segments,\n"
     "    title='MCU revenue mix by Phase \u2014 domestic vs international',\n"
     "    subtitle='Share of worldwide gross; each Phase normalized to 100%',\n"
+    "    center_vertically=True,  # only 6 bars \u2014 center the block instead of packing to the top\n"
     "    source=SRC, img_width=soc_w, img_height=soc_h)\n"
     "img.save(social_out / '04_mcu_domestic_vs_international_by_phase.png'); display(img)\n"
     "imgw = stacked_100pct_bars(df=split, group_col='phase', segments=segments,\n"
