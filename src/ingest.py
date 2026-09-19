@@ -184,8 +184,13 @@ def parse_html_table(html: str, table_index: int = 0) -> pd.DataFrame:
     """Extract a <table> from HTML by index and return it as a DataFrame.
 
     Cleans up column names: lowercase, spaces → underscores.
+
+    Note: pandas 3.x no longer accepts a raw HTML *string* — it must be a
+    file-like object — so the string is wrapped in StringIO.
     """
-    tables = pd.read_html(html)
+    from io import StringIO
+
+    tables = pd.read_html(StringIO(html))
     if not tables:
         raise ValueError("No tables found in the provided HTML.")
     if table_index >= len(tables):

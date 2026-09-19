@@ -1,4 +1,14 @@
-# marvel
+# marvel — the MCU as a part-of-whole picture
+
+How the Marvel Cinematic Universe's box office breaks down film by film, grouped
+by Phase and Saga. A treemap sized by worldwide gross shows at a glance which
+films (and which Phase) carry the franchise — *Endgame* and *Infinity War* as
+giant tiles, Phase 4's fragmentation visible as many small ones.
+
+**Scope:** theatrical MCU feature films only (Marvel Studios' Phase 1–6 canon,
+including the Sony-distributed Tom Holland Spider-Man films that are MCU-canon).
+Released films only — no unreleased/future titles, TV specials, or Disney+ series
+(no theatrical box office). Boundary documented in [SOURCES.md](SOURCES.md).
 
 > **AI-Assisted Development**
 > This project was built with the assistance of [Kiro](https://kiro.dev),
