@@ -21,6 +21,14 @@ Released films only — no unreleased/future titles, TV specials, or Disney+ ser
 
 ## Data Sources
 
+Box-office figures are **cited from [The Numbers](https://www.the-numbers.com/movies/franchise/Marvel-Cinematic-Universe)**
+(Nash Information Services) and **cross-checked against Box Office Mojo** — the two
+independent sources agree on domestic gross to within ~1.4%. Grosses are nominal
+(year-of-release) dollars. This is a non-commercial, fun-tier pop-culture project;
+the numbers are publicly reported box-office facts, transformed into new metrics
+(share-of-franchise, average-per-film) and attributed here — not a redistribution
+of anyone's dataset.
+
 All data sources are documented in [SOURCES.md](SOURCES.md) with full
 attribution, URLs, licenses, and retrieval notes.
 
