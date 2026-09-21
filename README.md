@@ -33,7 +33,7 @@ warm golds/red = the Multiverse Saga, Phases 4–6). The giant tiles — *Endgam
 ($2.72B), *Brand New Day* ($2.46B), *Infinity War* ($2.05B), *No Way Home* ($1.92B)
 — are the franchise's tentpoles; Phase 3's block dwarfs the rest.
 
-[![MCU worldwide box office by film, grouped by Phase](docs/01_mcu_treemap_by_phase.png)](docs/01_mcu_treemap_by_phase.png)
+[![MCU worldwide box office by film, grouped by Phase](docs/01_mcu_treemap_by_phase.png?v=2)](docs/01_mcu_treemap_by_phase.png?v=2)
 
 ## 2. Infinity Saga vs. Multiverse Saga
 
@@ -41,7 +41,7 @@ The same films, colored by **Saga**. The finished three-Phase Infinity Saga (tea
 still takes up almost two-thirds of the picture; everything since *Endgame* (the
 Multiverse Saga, orange) is the smaller block.
 
-[![MCU worldwide box office by Saga](docs/02_mcu_treemap_by_saga.png)](docs/02_mcu_treemap_by_saga.png)
+[![MCU worldwide box office by Saga](docs/02_mcu_treemap_by_saga.png?v=2)](docs/02_mcu_treemap_by_saga.png?v=2)
 
 ## 3. Average box office per film, by Phase
 
@@ -52,7 +52,7 @@ Phase 6's chart-topping average rests on just two films, and its figure is **as 
 September 2026** — *Spider-Man: Brand New Day* was still in theaters, so it will
 keep rising.
 
-[![MCU average worldwide gross per film, by Phase](docs/03_mcu_avg_gross_per_film_by_phase.png)](docs/03_mcu_avg_gross_per_film_by_phase.png)
+[![MCU average worldwide gross per film, by Phase](docs/03_mcu_avg_gross_per_film_by_phase.png?v=2)](docs/03_mcu_avg_gross_per_film_by_phase.png?v=2)
 
 ## 4. Where the money comes from — home vs. abroad
 
@@ -61,7 +61,7 @@ Each Phase's worldwide gross split into **domestic (U.S. & Canada)** vs.
 shown inside each segment). International is the majority in every Phase; the
 foreign share peaks in the mid-Phases (*Iron Man 3* / *Ultron* era) then eases back.
 
-[![MCU revenue mix by Phase, domestic vs international](docs/04_mcu_domestic_vs_international_by_phase.png)](docs/04_mcu_domestic_vs_international_by_phase.png)
+[![MCU revenue mix by Phase, domestic vs international](docs/04_mcu_domestic_vs_international_by_phase.png?v=2)](docs/04_mcu_domestic_vs_international_by_phase.png?v=2)
 
 ---
 
