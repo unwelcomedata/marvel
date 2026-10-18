@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  @unwelcomedata — PROJECT INFOGRAPHIC (landscape social render)
+  Project: marvel
+  1600x900 feed render. Same brand FRAME formatting (header/footer/dividers),
+  re-laid into two columns. Numbers/colors identical to the tall poster.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" font-family="Helvetica, Arial, sans-serif">
+
+  <!-- ===== CANVAS ===== -->
+  <rect width="1600" height="900" fill="#FBF8F0"/>
+
+  <!-- ============================================================= -->
+  <!-- HEADER BAND (navy)                                            -->
+  <!-- ============================================================= -->
+  <rect x="0" y="0" width="1600" height="190" fill="#003049"/>
+  <text x="80" y="88" fill="#FFFFFF" font-size="52" font-weight="bold">The Marvel Cinematic Universe, by the numbers</text>
+  <text x="80" y="134" fill="#94D2BD" font-size="32" font-weight="bold">38 films, $34.8B worldwide &#8212; and still front-loaded</text>
+  <text x="80" y="170" fill="#E9D8A6" font-size="21">Theatrical MCU feature films, Phase 1&#8211;6, by worldwide box office. Top film: Avengers: Endgame, $2.717B.</text>
+
+  <!-- vertical divider between the two columns -->
+  <line x1="800" y1="230" x2="800" y2="790" stroke="#E9D8A6" stroke-width="3"/>
+
+  <!-- ============================================================= -->
+  <!-- LEFT COLUMN — THE SAGA SPLIT                                  -->
+  <!-- ============================================================= -->
+  <text x="80" y="270" fill="#003049" font-size="30" font-weight="bold">The first saga still outweighs the rest</text>
+  <text x="80" y="300" fill="#6B7280" font-size="20">Share of all MCU box office, by saga.</text>
+
+  <!-- 100% split bar (track x80 -> x760 = 680px) -->
+  <rect x="80" y="334" width="438.6" height="72" fill="#003049"/>
+  <rect x="518.6" y="334" width="241.4" height="72" fill="#0A9396"/>
+  <text x="96" y="368" fill="#FFFFFF" font-size="24" font-weight="bold">Infinity</text>
+  <text x="96" y="394" fill="#94D2BD" font-size="18">23 films &#183; $22.5B</text>
+  <text x="744" y="368" fill="#FFFFFF" font-size="24" font-weight="bold" text-anchor="end">Multiverse</text>
+  <text x="744" y="394" fill="#E9D8A6" font-size="18" text-anchor="end">15 films &#183; $12.4B</text>
+
+  <text x="299.3" y="452" fill="#003049" font-size="36" font-weight="bold" text-anchor="middle">64.5%</text>
+  <text x="639.3" y="452" fill="#0A9396" font-size="36" font-weight="bold" text-anchor="middle">35.5%</text>
+
+  <!-- gold divider inside left column -->
+  <line x1="80" y1="500" x2="760" y2="500" stroke="#E9D8A6" stroke-width="3"/>
+
+  <text x="80" y="548" fill="#003049" font-size="30" font-weight="bold">A front-loaded franchise</text>
+  <text x="80" y="578" fill="#6B7280" font-size="20">Three big-number anchors.</text>
+
+  <text x="80" y="676" fill="#9B2226" font-size="72" font-weight="bold">38</text>
+  <text x="80" y="712" fill="#6B7280" font-size="20">films</text>
+
+  <text x="300" y="676" fill="#9B2226" font-size="72" font-weight="bold">$34.8B</text>
+  <text x="300" y="712" fill="#6B7280" font-size="20">total worldwide gross</text>
+
+  <text x="80" y="770" fill="#6B7280" font-size="20">The 23-film Infinity Saga earned nearly <tspan fill="#003049" font-weight="bold">two of every three dollars</tspan>,</text>
+  <text x="80" y="796" fill="#6B7280" font-size="20">even though the Multiverse Saga is still unfinished.</text>
+
+  <!-- ============================================================= -->
+  <!-- RIGHT COLUMN — PHASE SIZE + PER-FILM AVERAGE                  -->
+  <!-- ============================================================= -->
+  <text x="860" y="270" fill="#003049" font-size="30" font-weight="bold">Phase 3 is the mountain</text>
+  <text x="860" y="300" fill="#6B7280" font-size="20">Each phase&#8217;s share of total franchise box office.</text>
+
+  <!-- bars: label track ends x1025; bar track x1040 -> x1500 = 460px at max 38.5% -->
+  <!-- Phase 3 -->
+  <text x="1025" y="336" fill="#003049" font-size="19" font-weight="bold" text-anchor="end">P3</text>
+  <rect x="1040" y="318" width="460.0" height="26" fill="#9B2226"/>
+  <text x="1052" y="337" fill="#FFFFFF" font-size="16" font-weight="bold">38.5% &#183; 11 films</text>
+  <!-- Phase 4 -->
+  <text x="1025" y="372" fill="#003049" font-size="19" font-weight="bold" text-anchor="end">P4</text>
+  <rect x="1040" y="354" width="195.9" height="26" fill="#005F73"/>
+  <text x="1245.9" y="373" fill="#003049" font-size="16" font-weight="bold">16.4% &#183; 7</text>
+  <!-- Phase 2 -->
+  <text x="1025" y="408" fill="#003049" font-size="19" font-weight="bold" text-anchor="end">P2</text>
+  <rect x="1040" y="390" width="180.4" height="26" fill="#0A9396"/>
+  <text x="1230.4" y="409" fill="#003049" font-size="16" font-weight="bold">15.1% &#183; 6</text>
+  <!-- Phase 1 -->
+  <text x="1025" y="444" fill="#003049" font-size="19" font-weight="bold" text-anchor="end">P1</text>
+  <rect x="1040" y="426" width="130.2" height="26" fill="#94D2BD"/>
+  <text x="1180.2" y="445" fill="#003049" font-size="16" font-weight="bold">10.9% &#183; 6</text>
+  <!-- Phase 5 -->
+  <text x="1025" y="480" fill="#003049" font-size="19" font-weight="bold" text-anchor="end">P5</text>
+  <rect x="1040" y="462" width="125.5" height="26" fill="#94D2BD"/>
+  <text x="1175.5" y="481" fill="#003049" font-size="16" font-weight="bold">10.5% &#183; 6</text>
+  <!-- Phase 6 -->
+  <text x="1025" y="516" fill="#003049" font-size="19" font-weight="bold" text-anchor="end">P6</text>
+  <rect x="1040" y="498" width="101.6" height="26" fill="#EE9B00"/>
+  <text x="1151.6" y="517" fill="#003049" font-size="16" font-weight="bold">8.5% &#183; 2</text>
+
+  <!-- gold divider inside right column -->
+  <line x1="860" y1="552" x2="1520" y2="552" stroke="#E9D8A6" stroke-width="3"/>
+
+  <text x="860" y="600" fill="#003049" font-size="30" font-weight="bold">Per film, Phase 6 leads &#8212; on 2 films</text>
+  <text x="860" y="630" fill="#6B7280" font-size="20">Average worldwide gross per film, by phase.</text>
+
+  <!-- avg bars: track x1040 -> x1500 = 460px at max $1.489B -->
+  <!-- Phase 6 1.489 -> 460.0 ; LOAD-BEARING "2 films" caveat -->
+  <text x="1025" y="672" fill="#003049" font-size="19" font-weight="bold" text-anchor="end">P6</text>
+  <rect x="1040" y="654" width="460.0" height="26" fill="#EE9B00"/>
+  <text x="1052" y="673" fill="#003049" font-size="16" font-weight="bold">$1.49B</text>
+  <text x="1490" y="673" fill="#9B2226" font-size="15" font-weight="bold" text-anchor="end">only 2 films</text>
+  <!-- Phase 3 1.219 -> 376.6 -->
+  <text x="1025" y="708" fill="#003049" font-size="19" font-weight="bold" text-anchor="end">P3</text>
+  <rect x="1040" y="690" width="376.6" height="26" fill="#9B2226"/>
+  <text x="1052" y="709" fill="#FFFFFF" font-size="16" font-weight="bold">$1.22B &#183; 11 films</text>
+  <!-- Phase 2 0.876 -> 270.6 -->
+  <text x="1025" y="744" fill="#003049" font-size="19" font-weight="bold" text-anchor="end">P2</text>
+  <rect x="1040" y="726" width="270.6" height="26" fill="#0A9396"/>
+  <text x="1320.6" y="745" fill="#003049" font-size="16" font-weight="bold">$0.88B</text>
+  <!-- Phase 4 0.816 -> 252.1 -->
+  <text x="1025" y="780" fill="#003049" font-size="19" font-weight="bold" text-anchor="end">P4</text>
+  <rect x="1040" y="762" width="252.1" height="26" fill="#005F73"/>
+  <text x="1302.1" y="781" fill="#003049" font-size="16" font-weight="bold">$0.82B</text>
+
+  <!-- ============================================================= -->
+  <!-- FOOTER BAND                                                   -->
+  <!-- ============================================================= -->
+  <rect x="0" y="810" width="1600" height="90" fill="#003049"/>
+  <text x="80" y="852" fill="#FFFFFF" font-size="22" font-weight="bold">@unwelcomedata</text>
+  <text x="80" y="882" fill="#94D2BD" font-size="18">Box office from The Numbers, cross-checked vs Box Office Mojo (~1.4% agreement on domestic) &#183; theatrical MCU only &#183; Phase 6 ongoing.</text>
+</svg>

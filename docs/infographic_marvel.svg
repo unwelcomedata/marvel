@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  @unwelcomedata — PROJECT INFOGRAPHIC (tall portrait poster)
+  Project: marvel
+  Bespoke, data-driven poster. Brand FRAME (header/footer/dividers) copied
+  from shared/infographic-frame-template.svg. Body hand-authored off the real
+  box-office data (The Numbers, theatrical MCU Phase 1-6, incl. Sony Holland films).
+  Canvas width fixed 1200; height grows to fit (final: 2340).
+  Proportional bars are scaled SVG rects faithful to the real values.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="2340" viewBox="0 0 1200 2340" font-family="Helvetica, Arial, sans-serif">
+
+  <!-- ===== CANVAS ===== -->
+  <rect width="1200" height="2340" fill="#FBF8F0"/>
+
+  <!-- ============================================================= -->
+  <!-- HEADER BAND                                                   -->
+  <!-- ============================================================= -->
+  <rect x="0" y="0" width="1200" height="300" fill="#003049"/>
+  <text x="80" y="128" fill="#FFFFFF" font-size="66" font-weight="bold">The Marvel Cinematic</text>
+  <text x="80" y="198" fill="#FFFFFF" font-size="66" font-weight="bold">Universe, by the numbers</text>
+  <text x="80" y="250" fill="#94D2BD" font-size="36" font-weight="bold">38 films, $34.8B worldwide &#8212; and still front-loaded</text>
+
+  <!-- ============================================================= -->
+  <!-- SECTION 1 — THE HEADLINE SCALE                                -->
+  <!-- ============================================================= -->
+  <text x="80" y="392" fill="#003049" font-size="34" font-weight="bold">The franchise at a glance</text>
+  <text x="80" y="426" fill="#6B7280" font-size="24">Theatrical MCU feature films, Phase 1&#8211;6, by worldwide box office.</text>
+
+  <!-- three big-number callouts -->
+  <text x="80" y="548" fill="#9B2226" font-size="104" font-weight="bold">38</text>
+  <text x="80" y="588" fill="#6B7280" font-size="24">theatrical films</text>
+
+  <text x="470" y="548" fill="#9B2226" font-size="104" font-weight="bold">$34.8B</text>
+  <text x="470" y="588" fill="#6B7280" font-size="24">total worldwide gross</text>
+
+  <!-- top film callout, right -->
+  <text x="1120" y="520" fill="#003049" font-size="60" font-weight="bold" text-anchor="end">$2.717B</text>
+  <text x="1120" y="556" fill="#6B7280" font-size="24" text-anchor="end">top film: Avengers: Endgame</text>
+  <text x="1120" y="586" fill="#6B7280" font-size="24" text-anchor="end">the single biggest release</text>
+
+  <!-- divider -->
+  <line x1="80" y1="648" x2="1120" y2="648" stroke="#E9D8A6" stroke-width="3"/>
+
+  <!-- ============================================================= -->
+  <!-- SECTION 2 — THE SAGA SPLIT                                    -->
+  <!-- ============================================================= -->
+  <text x="80" y="738" fill="#003049" font-size="34" font-weight="bold">The first saga still outweighs everything since</text>
+  <text x="80" y="772" fill="#6B7280" font-size="24">Share of all MCU box office, by saga.</text>
+
+  <!-- 100% split bar (track x80 -> x1120 = 1040px) -->
+  <rect x="80" y="812" width="670.8" height="80" fill="#003049"/>
+  <rect x="750.8" y="812" width="369.2" height="80" fill="#0A9396"/>
+  <text x="100" y="852" fill="#FFFFFF" font-size="30" font-weight="bold">Infinity Saga</text>
+  <text x="100" y="882" fill="#94D2BD" font-size="22">23 films &#183; $22.5B</text>
+  <text x="1100" y="852" fill="#FFFFFF" font-size="30" font-weight="bold" text-anchor="end">Multiverse Saga</text>
+  <text x="1100" y="882" fill="#E9D8A6" font-size="22" text-anchor="end">15 films &#183; $12.4B</text>
+
+  <!-- percent labels under the bar -->
+  <text x="415.4" y="936" fill="#003049" font-size="40" font-weight="bold" text-anchor="middle">64.5%</text>
+  <text x="935.4" y="936" fill="#0A9396" font-size="40" font-weight="bold" text-anchor="middle">35.5%</text>
+
+  <text x="80" y="1004" fill="#6B7280" font-size="23">The 23-film Infinity Saga earned nearly <tspan fill="#003049" font-weight="bold">two of every three dollars</tspan> &#8212; even though</text>
+  <text x="80" y="1034" fill="#6B7280" font-size="23">the Multiverse Saga is still unfinished.</text>
+
+  <!-- divider -->
+  <line x1="80" y1="1062" x2="1120" y2="1062" stroke="#E9D8A6" stroke-width="3"/>
+
+  <!-- ============================================================= -->
+  <!-- SECTION 3 — PHASE SIZE (SHARE OF FRANCHISE)                   -->
+  <!-- ============================================================= -->
+  <text x="80" y="1152" fill="#003049" font-size="34" font-weight="bold">Phase 3 is the mountain</text>
+  <text x="80" y="1186" fill="#6B7280" font-size="24">Each phase&#8217;s share of total franchise box office (bar) &#183; films in phase.</text>
+
+  <!-- bars: label track ends x270; bar track x290 -> x1110 = 820px at max 38.5% -->
+  <!-- Phase 3 38.5% -> 820.0 -->
+  <text x="270" y="1258" fill="#003049" font-size="24" font-weight="bold" text-anchor="end">Phase 3</text>
+  <rect x="290" y="1234" width="820.0" height="40" fill="#9B2226"/>
+  <text x="306" y="1261" fill="#FFFFFF" font-size="22" font-weight="bold">38.5% &#183; $13.4B &#183; 11 films</text>
+
+  <!-- Phase 4 16.4% -> 349.3 -->
+  <text x="270" y="1318" fill="#003049" font-size="24" font-weight="bold" text-anchor="end">Phase 4</text>
+  <rect x="290" y="1294" width="349.3" height="40" fill="#005F73"/>
+  <text x="655.3" y="1321" fill="#003049" font-size="22" font-weight="bold">16.4% &#183; $5.7B &#183; 7 films</text>
+
+  <!-- Phase 2 15.1% -> 321.6 -->
+  <text x="270" y="1378" fill="#003049" font-size="24" font-weight="bold" text-anchor="end">Phase 2</text>
+  <rect x="290" y="1354" width="321.6" height="40" fill="#0A9396"/>
+  <text x="627.6" y="1381" fill="#003049" font-size="22" font-weight="bold">15.1% &#183; $5.3B &#183; 6 films</text>
+
+  <!-- Phase 1 10.9% -> 232.2 -->
+  <text x="270" y="1438" fill="#003049" font-size="24" font-weight="bold" text-anchor="end">Phase 1</text>
+  <rect x="290" y="1414" width="232.2" height="40" fill="#94D2BD"/>
+  <text x="538.2" y="1441" fill="#003049" font-size="22" font-weight="bold">10.9% &#183; $3.8B &#183; 6 films</text>
+
+  <!-- Phase 5 10.5% -> 223.6 -->
+  <text x="270" y="1498" fill="#003049" font-size="24" font-weight="bold" text-anchor="end">Phase 5</text>
+  <rect x="290" y="1474" width="223.6" height="40" fill="#94D2BD"/>
+  <text x="529.6" y="1501" fill="#003049" font-size="22" font-weight="bold">10.5% &#183; $3.7B &#183; 6 films</text>
+
+  <!-- Phase 6 8.5% -> 181.0 -->
+  <text x="270" y="1558" fill="#003049" font-size="24" font-weight="bold" text-anchor="end">Phase 6</text>
+  <rect x="290" y="1534" width="181.0" height="40" fill="#EE9B00"/>
+  <text x="487.0" y="1561" fill="#003049" font-size="22" font-weight="bold">8.5% &#183; $3.0B &#183; 2 films</text>
+
+  <text x="80" y="1636" fill="#6B7280" font-size="23">Phase 3 alone earned <tspan fill="#9B2226" font-weight="bold">more than Phases 1, 2 and 5 combined</tspan> &#8212; it&#8217;s where the Infinity Saga peaked.</text>
+
+  <!-- divider -->
+  <line x1="80" y1="1694" x2="1120" y2="1694" stroke="#E9D8A6" stroke-width="3"/>
+
+  <!-- ============================================================= -->
+  <!-- SECTION 4 — AVERAGE PER FILM (THE FAIR CUT)                   -->
+  <!-- ============================================================= -->
+  <text x="80" y="1784" fill="#003049" font-size="34" font-weight="bold">Per film, Phase 6 is on top &#8212; but it&#8217;s only two films</text>
+  <text x="80" y="1818" fill="#6B7280" font-size="24">Average worldwide gross per film, by phase (controls for how many films each phase has).</text>
+
+  <!-- bars: bar track x290 -> x1110 = 820px at max $1.489B -->
+  <!-- Phase 6 1.489 -> 820.0 ; LOAD-BEARING "2 films" caveat kept visible -->
+  <text x="270" y="1888" fill="#003049" font-size="24" font-weight="bold" text-anchor="end">Phase 6</text>
+  <rect x="290" y="1864" width="820.0" height="40" fill="#EE9B00"/>
+  <text x="306" y="1891" fill="#003049" font-size="22" font-weight="bold">$1.49B per film</text>
+  <text x="1100" y="1891" fill="#9B2226" font-size="22" font-weight="bold" text-anchor="end">only 2 films</text>
+
+  <!-- Phase 3 1.219 -> 671.3 -->
+  <text x="270" y="1948" fill="#003049" font-size="24" font-weight="bold" text-anchor="end">Phase 3</text>
+  <rect x="290" y="1924" width="671.3" height="40" fill="#9B2226"/>
+  <text x="306" y="1951" fill="#FFFFFF" font-size="22" font-weight="bold">$1.22B per film</text>
+  <text x="977.3" y="1951" fill="#6B7280" font-size="20">11 films</text>
+
+  <!-- Phase 2 0.876 -> 482.4 -->
+  <text x="270" y="2008" fill="#003049" font-size="24" font-weight="bold" text-anchor="end">Phase 2</text>
+  <rect x="290" y="1984" width="482.4" height="40" fill="#0A9396"/>
+  <text x="788.4" y="2011" fill="#003049" font-size="22" font-weight="bold">$0.88B per film</text>
+  <text x="978" y="2011" fill="#6B7280" font-size="20">6 films</text>
+
+  <!-- Phase 4 0.816 -> 449.4 -->
+  <text x="270" y="2068" fill="#003049" font-size="24" font-weight="bold" text-anchor="end">Phase 4</text>
+  <rect x="290" y="2044" width="449.4" height="40" fill="#005F73"/>
+  <text x="755.4" y="2071" fill="#003049" font-size="22" font-weight="bold">$0.82B per film</text>
+  <text x="945" y="2071" fill="#6B7280" font-size="20">7 films</text>
+
+  <!-- Phase 1 0.634 -> 349.1 -->
+  <text x="270" y="2128" fill="#003049" font-size="24" font-weight="bold" text-anchor="end">Phase 1</text>
+  <rect x="290" y="2104" width="349.1" height="40" fill="#94D2BD"/>
+  <text x="655.1" y="2131" fill="#003049" font-size="22" font-weight="bold">$0.63B per film</text>
+  <text x="845" y="2131" fill="#6B7280" font-size="20">6 films</text>
+
+  <!-- Phase 5 0.611 -> 336.5 -->
+  <text x="270" y="2188" fill="#003049" font-size="24" font-weight="bold" text-anchor="end">Phase 5</text>
+  <rect x="290" y="2164" width="336.5" height="40" fill="#94D2BD"/>
+  <text x="642.5" y="2191" fill="#003049" font-size="22" font-weight="bold">$0.61B per film</text>
+  <text x="832" y="2191" fill="#6B7280" font-size="20">6 films</text>
+
+  <text x="80" y="2236" fill="#6B7280" font-size="23">Phase 6&#8217;s lead rests on just <tspan fill="#9B2226" font-weight="bold">two releases</tspan>; Phase 3 is the strongest average across a full slate of 11.</text>
+
+  <!-- ============================================================= -->
+  <!-- FOOTER BAND  (pinned to bottom of canvas height 2340)         -->
+  <!-- ============================================================= -->
+  <rect x="0" y="2250" width="1200" height="90" fill="#003049"/>
+  <text x="80" y="2295" fill="#FFFFFF" font-size="24" font-weight="bold">@unwelcomedata</text>
+  <text x="80" y="2325" fill="#94D2BD" font-size="18">Box office from The Numbers, cross-checked vs Box Office Mojo (~1.4% agreement on domestic) &#183; theatrical MCU only &#183; Phase 6 ongoing.</text>
+</svg>
