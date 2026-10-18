@@ -25,6 +25,8 @@ which era actually carried the franchise.
 
 _Click any chart to open it at full resolution._
 
+[![Marvel Cinematic Universe — box office infographic](docs/infographic_marvel.png)](docs/infographic_marvel.png)
+
 ## 1. The whole franchise, film by film
 
 Every released theatrical MCU film as a tile sized by its **lifetime worldwide
