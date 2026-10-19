@@ -16,7 +16,7 @@
   <rect x="0" y="0" width="1600" height="190" fill="#003049"/>
   <text x="80" y="88" fill="#FFFFFF" font-size="52" font-weight="bold">The Marvel Cinematic Universe, by the numbers</text>
   <text x="80" y="134" fill="#94D2BD" font-size="32" font-weight="bold">38 films, $34.8B worldwide &#8212; and still front-loaded</text>
-  <text x="80" y="170" fill="#E9D8A6" font-size="21">Theatrical MCU feature films, Phase 1&#8211;6, by worldwide box office. Top film: Avengers: Endgame, $2.717B.</text>
+  <text x="80" y="170" fill="#E9D8A6" font-size="21">Theatrical MCU feature films, Phase 1&#8211;6, by worldwide box office. Top film: Avengers: Endgame, $2.718B.</text>
 
   <!-- vertical divider between the two columns -->
   <line x1="800" y1="230" x2="800" y2="790" stroke="#E9D8A6" stroke-width="3"/>
